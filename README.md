@@ -15,7 +15,7 @@ Multi core CPUs can be used easily. With dual core CPUs common, and 8 core CPUs 
 # About Project 
 By using the pygame library we will visualize all the sorting algorithm. By looking at the graph how data is sorted we will analyze which sorting technique perform best under a specificc situatiion. 
 Following Algorithms will be covered here 
-https://youtu.be/0J7Sf7brv60
+# https://youtu.be/0J7Sf7brv60
 ## Bubble sort 
 ## selection sort
 ## insertion sort 
