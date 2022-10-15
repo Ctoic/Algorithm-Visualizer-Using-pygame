@@ -26,7 +26,7 @@ The subarray which already sorted.
 The remaining subarray was unsorted.
 In every iteration of the selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray. 
 
-## insertion sort 
+## Insertion sort 
 Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.
 
 Characteristics of Insertion Sort:
@@ -47,6 +47,24 @@ Always pick the last element as a pivot (implemented below)
 Pick a random element as a pivot.
 Pick median as the pivot.
 The key process in quickSort is a partition(). The target of partitions is, given an array and an element x of an array as the pivot, put x at its correct position in a sorted array and put all smaller elements (smaller than x) before x, and put all greater elements (greater than x) after x. All this should be done in linear time.
-## Bucket Sort 
+## Heap Sort
+Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to the selection sort where we first find the minimum element and place the minimum element at the beginning. Repeat the same process for the remaining elements.
+Heap sort is an in-place algorithm. 
+Its typical implementation is not stable, but can be made stable (See this)
+Typically 2-3 times slower than well-implemented QuickSort.  The reason for slowness is a lack of locality of reference.
 
-## Cocktail Sort
+
+## Bucket Sort 
+Bucket sort is mainly useful when input is uniformly distributed over a range. For example, consider the following problem. 
+Sort a large set of floating point numbers which are in range from 0.0 to 1.0 and are uniformly distributed across the range. How do we sort the numbers efficiently?
+A simple way is to apply a comparison based sorting algorithm. The lower bound for Comparison based sorting algorithm (Merge Sort, Heap Sort, Quick-Sort .. etc) is Ω(n Log n), i.e., they cannot do better than nLogn. 
+Can we sort the array in linear time? Counting sort can not be applied here as we use keys as index in counting sort. Here keys are floating point numbers.  
+The idea is to use bucket sort. Following is bucket algorithm.
+
+## Counting sort
+Counting sort is a sorting technique based on keys between a specific range. It works by counting the number of objects having distinct key values (kind of hashing). Then do some arithmetic to calculate the position of each object in the output sequence. 
+
+Characteristics of counting sort:
+Counting sort makes assumptions about the data, for example, it assumes that values are going to be in the range of 0 to 10 or 10 – 99 etc, Some other assumptions counting sort makes are input data will be all real numbers.
+Like other algorithms this sorting algorithm is not a comparison-based algorithm, it hashes the value in a temporary count array and uses them for sorting.
+It uses a temporary array making it a non In Place algorithm.
