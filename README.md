@@ -17,7 +17,11 @@ By using the pygame library we will visualize all the sorting algorithm. By look
 Following Algorithms will be covered here 
 # https://youtu.be/0J7Sf7brv60
 ## Bubble sort 
-Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.
+Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite
+
+https://user-images.githubusercontent.com/90936436/195989154-41d0f0e4-1b97-43fb-b2c9-430866fef58f.mp4
+
+ high.
 ## selection sort
 The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from the unsorted part and putting it at the beginning. 
 The algorithm maintains two subarrays in a given array.
