@@ -18,7 +18,16 @@ Following Algorithms will be covered here
 # https://youtu.be/0J7Sf7brv60
 ## Bubble sort 
 Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.
+
+
 https://user-images.githubusercontent.com/90936436/195990228-474d2f2f-f562-45f2-b515-7e8f0ba06b0c.mp4
+
+
+
+
+
+
+
 ## selection sort
 The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from the unsorted part and putting it at the beginning. 
 The algorithm maintains two subarrays in a given array.
