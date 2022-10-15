@@ -17,8 +17,19 @@ By using the pygame library we will visualize all the sorting algorithm. By look
 Following Algorithms will be covered here 
 # https://youtu.be/0J7Sf7brv60
 ## Bubble sort 
+Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.
 ## selection sort
+
 ## insertion sort 
+
 ## Merge Sort
+
+##Quicksort
+QuickSort is a Divide and Conquer algorithm. It picks an element as a pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways. 
+Always pick the first element as a pivot.
+Always pick the last element as a pivot (implemented below)
+Pick a random element as a pivot.
+Pick median as the pivot.
+The key process in quickSort is a partition(). The target of partitions is, given an array and an element x of an array as the pivot, put x at its correct position in a sorted array and put all smaller elements (smaller than x) before x, and put all greater elements (greater than x) after x. All this should be done in linear time.
 ## Bucket Sort 
 ## Cocktail Sort
