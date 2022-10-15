@@ -39,6 +39,11 @@ Basically, Insertion sort is efficient for small data values
 Insertion sort is adaptive in nature, i.e. it is appropriate for data sets which are already partially sorted.
 
 
+https://user-images.githubusercontent.com/90936436/195990217-7ad15d2b-76ce-47fa-8d2b-732161c94a80.mp4
+
+
+
+
 ## Merge Sort
 The Merge Sort algorithm is a sorting algorithm that is based on the Divide and Conquer paradigm. In this algorithm, the array is initially divided into two equal halves and then they are combined in a sorted manner.
 Merge Sort Working Process:
@@ -51,11 +56,21 @@ Always pick the last element as a pivot (implemented below)
 Pick a random element as a pivot.
 Pick median as the pivot.
 The key process in quickSort is a partition(). The target of partitions is, given an array and an element x of an array as the pivot, put x at its correct position in a sorted array and put all smaller elements (smaller than x) before x, and put all greater elements (greater than x) after x. All this should be done in linear time.
+
+
+https://user-images.githubusercontent.com/90936436/195990228-474d2f2f-f562-45f2-b515-7e8f0ba06b0c.mp4
+
+
 ## Heap Sort
 Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to the selection sort where we first find the minimum element and place the minimum element at the beginning. Repeat the same process for the remaining elements.
 Heap sort is an in-place algorithm. 
 Its typical implementation is not stable, but can be made stable (See this)
 Typically 2-3 times slower than well-implemented QuickSort.  The reason for slowness is a lack of locality of reference.
+
+
+https://user-images.githubusercontent.com/90936436/195990250-f2ac2ce6-dbfd-458b-928b-1d2d6de60b73.mp4
+
+
 
 
 ## Bucket Sort 
