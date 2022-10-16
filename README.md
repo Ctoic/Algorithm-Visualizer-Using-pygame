@@ -14,8 +14,8 @@ Multi core CPUs can be used easily. With dual core CPUs common, and 8 core CPUs 
 
 # About Project 
 By using the pygame library we will visualize all the sorting algorithm. By looking at the graph how data is sorted we will analyze which sorting technique perform best under a specificc situatiion. 
-Following Algorithms will be covered here 
 # https://youtu.be/0J7Sf7brv60
+Following Algorithms will be covered here 
 ## Bubble sort 
 Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.
 
@@ -133,7 +133,6 @@ The idea is to use bucket sort. Following is bucket algorithm.
 
 ## Counting sort
 Counting sort is a sorting technique based on keys between a specific range. It works by counting the number of objects having distinct key values (kind of hashing). Then do some arithmetic to calculate the position of each object in the output sequence. 
-
 Characteristics of counting sort:
 Counting sort makes assumptions about the data, for example, it assumes that values are going to be in the range of 0 to 10 or 10 – 99 etc, Some other assumptions counting sort makes are input data will be all real numbers.
 Like other algorithms this sorting algorithm is not a comparison-based algorithm, it hashes the value in a temporary count array and uses them for sorting.
@@ -142,6 +141,10 @@ It uses a temporary array making it a non In Place algorithm.
 https://user-images.githubusercontent.com/90936436/196022310-b4de35c3-858d-4d7a-a04f-0cf75c42700c.mp4
 
 
-
+# Links and Refrences 
+https://www.geeksforgeeks.org/
+https://www.youtube.com/watch?v=twRidO-_vqQ
+https://stackoverflow.com/
+https://docs.python.org/3/
 
 
