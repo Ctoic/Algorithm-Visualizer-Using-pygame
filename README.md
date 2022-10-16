@@ -40,7 +40,8 @@ In these video clips you can see the GUI
 5. Canva 
 6. Youtube
 
-# Visualization of Algorithms 
+# Visualization of Algorithms
+https://youtu.be/OTWB07hUS1U
 ## Bubble sort 
 Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.
 
