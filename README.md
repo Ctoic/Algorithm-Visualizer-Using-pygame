@@ -143,8 +143,13 @@ https://user-images.githubusercontent.com/90936436/196022310-b4de35c3-858d-4d7a-
 
 # Links and Refrences 
 https://www.geeksforgeeks.org/
+
 https://www.youtube.com/watch?v=twRidO-_vqQ
+
 https://stackoverflow.com/
+
 https://docs.python.org/3/
+
+https://www.pygame.org/docs/
 
 
