@@ -13,7 +13,16 @@ For a nice introduction to pygame, examine the line-by-line chimp tutorial, and 
 Multi core CPUs can be used easily. With dual core CPUs common, and 8 core CPUs cheaply available on desktop systems, making use of multi core CPUs allows you to do more in your game. Selected pygame functions release the dreaded python GIL, which is something you can do from C code.
 
 # About Project 
-By using the pygame library we will visualize all the sorting algorithm. By looking at the graph how data is sorted we will analyze which sorting technique perform best under a specificc situatiion. 
+By using the pygame library we will visualize all the sorting algorithm. By looking at the graph how data is sorted we will analyze which sorting technique perform best under a specificc situatiion.
+## Tools used 
+
+1. Python 
+2. Visual Studio
+3. pygame
+4. Github
+5. Canva 
+6. Youtube
+
 # https://youtu.be/0J7Sf7brv60
 Following Algorithms will be covered here 
 ## Bubble sort 
