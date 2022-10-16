@@ -20,7 +20,10 @@ Following Algorithms will be covered here
 Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.
 
 
-https://user-images.githubusercontent.com/90936436/195990228-474d2f2f-f562-45f2-b515-7e8f0ba06b0c.mp4
+
+https://user-images.githubusercontent.com/90936436/196022219-438cfbe2-14e9-4de6-adeb-1c4905cb6dda.mp4
+
+
 
 
 
@@ -48,8 +51,11 @@ This algorithm is one of the simplest algorithm with simple implementation
 Basically, Insertion sort is efficient for small data values
 Insertion sort is adaptive in nature, i.e. it is appropriate for data sets which are already partially sorted.
 
-###
-https://user-images.githubusercontent.com/90936436/195990217-7ad15d2b-76ce-47fa-8d2b-732161c94a80.mp4
+
+https://user-images.githubusercontent.com/90936436/196022262-14497326-7817-4ddf-adbf-1050fac9474e.mp4
+
+
+
 
 
 
@@ -58,6 +64,15 @@ https://user-images.githubusercontent.com/90936436/195990217-7ad15d2b-76ce-47fa-
 The Merge Sort algorithm is a sorting algorithm that is based on the Divide and Conquer paradigm. In this algorithm, the array is initially divided into two equal halves and then they are combined in a sorted manner.
 Merge Sort Working Process:
 Think of it as a recursive algorithm continuously splits the array in half until it cannot be further divided. This means that if the array becomes empty or has only one element left, the dividing will stop, i.e. it is the base case to stop the recursion. If the array has multiple elements, split the array into halves and recursively invoke the merge sort on each of the halves. Finally, when both halves are sorted, the merge operation is applied. Merge operation is the process of taking two smaller sorted arrays and combining them to eventually make a larger one.
+
+
+
+
+https://user-images.githubusercontent.com/90936436/196022278-5766f596-e63d-49b1-9afb-877d3adab88b.mp4
+
+
+
+
 
 ## Quicksort
 QuickSort is a Divide and Conquer algorithm. It picks an element as a pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways. 
@@ -68,6 +83,14 @@ Pick median as the pivot.
 The key process in quickSort is a partition(). The target of partitions is, given an array and an element x of an array as the pivot, put x at its correct position in a sorted array and put all smaller elements (smaller than x) before x, and put all greater elements (greater than x) after x. All this should be done in linear time.
 
 
+https://user-images.githubusercontent.com/90936436/196022287-1cc0d03c-1e99-415a-b7ed-9b9e93201825.mp4
+
+
+
+
+
+
+
 ## Heap Sort
 Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to the selection sort where we first find the minimum element and place the minimum element at the beginning. Repeat the same process for the remaining elements.
 Heap sort is an in-place algorithm. 
@@ -75,7 +98,11 @@ Its typical implementation is not stable, but can be made stable (See this)
 Typically 2-3 times slower than well-implemented QuickSort.  The reason for slowness is a lack of locality of reference.
 
 
-https://user-images.githubusercontent.com/90936436/195990250-f2ac2ce6-dbfd-458b-928b-1d2d6de60b73.mp4
+
+
+
+
+https://user-images.githubusercontent.com/90936436/196022297-e179c7e1-1890-4433-b332-263167f32ec9.mp4
 
 
 
@@ -86,6 +113,15 @@ The lower bound for the Comparison based sorting algorithm (Merge Sort, Heap Sor
 What if the elements are in the range from 1 to n2? 
 We can’t use counting sort because counting sort will take O(n2) which is worse than comparison-based sorting algorithms. Can we sort such an array in linear time? 
 Radix Sort is the answer. The idea of Radix Sort is to do digit by digit sort starting from least significant digit to most significant digit. Radix sort uses counting sort as a subroutine to sort.
+
+
+
+https://user-images.githubusercontent.com/90936436/196022304-ec8b5f0a-3737-44ea-a277-2004863a602f.mp4
+
+
+
+
+
 
 
 ## Bucket Sort 
@@ -102,3 +138,10 @@ Characteristics of counting sort:
 Counting sort makes assumptions about the data, for example, it assumes that values are going to be in the range of 0 to 10 or 10 – 99 etc, Some other assumptions counting sort makes are input data will be all real numbers.
 Like other algorithms this sorting algorithm is not a comparison-based algorithm, it hashes the value in a temporary count array and uses them for sorting.
 It uses a temporary array making it a non In Place algorithm.
+
+https://user-images.githubusercontent.com/90936436/196022310-b4de35c3-858d-4d7a-a04f-0cf75c42700c.mp4
+
+
+
+
+
