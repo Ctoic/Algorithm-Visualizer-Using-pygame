@@ -1,16 +1,16 @@
 # Algorithm-Visualizer-Using-pygame
 ## Group Members and Task
 ### 1.Najam Ali Abbas(20I-2612)
-  a.Insertion sort
-  b.Bubble sort
-  c.Merge Sort
-  d.Quick Sort
-  e.Count Sort
+  a. Insertion sort
+  b. Bubble sort
+  c. Merge Sort
+  d. Quick Sort
+  e. Count Sort
   ### 2. Jawad ur Rehman(20I-0633)
-  a.Selection Sort
-  b.Heap Sort
-  c.Radix Sort
-  d.Bucket Sort
+  a. Selection Sort
+  b. Heap Sort
+  c. Radix Sort
+  d. Bucket Sort
 # Pygame
 Pygame is a set of Python modules designed for writing video games. Pygame adds functionality on top of the excellent SDL library. This allows you to create fully featured games and multimedia programs in the python language.
 Pygame is highly portable and runs on nearly every platform and operating system.
