@@ -25,6 +25,12 @@ In this project we have used python language because of it's extensive librarire
 3. Code for all the sorting Algorithm 
 4. Run the above python file in any of your faviroite IDE and see the magic ;)
 5. You will see visualization of all sorting Algorithms
+### About the GUI and How it works
+When you will run the above code. A screen will pop up.
+This screen contain name of all nine Algorithms , Set and resset button and also it provides you option to select Ascecending or Desecending.
+For example if you want to Select Bubble Sort You havve to Press (B) and For Ascending (A) and then press SPACE.
+Now visualization will be start for the Random Data.
+In these video clips you can see the GUI
 ## Tools used 
 
 1. Python 
