@@ -1,6 +1,6 @@
 # Algorithm-Visualizer-Using-pygame
 ## Group Members and Task
-### 1.Najam Ali Abbas
+### 1. Najam Ali Abbas
   1. Insertion sort
   2. Bubble sort
   3. Merge Sort
