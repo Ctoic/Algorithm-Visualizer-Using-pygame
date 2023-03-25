@@ -1,12 +1,12 @@
 # Algorithm-Visualizer-Using-pygame
 ## Group Members and Task
-### 1.Najam Ali Abbas(20I-2612)
+### 1.Najam Ali Abbas
   1. Insertion sort
   2. Bubble sort
   3. Merge Sort
   4. Quick Sort
   5. Count Sort
-  ### 2. Jawad ur Rehman(20I-0633)
+  ### 2. Jawad ur Rehman
   1. Selection Sort
   2. Heap Sort
   3. Radix Sort
