@@ -58,7 +58,9 @@ def draw(draw_info, algo_name, ascending):
 	pygame.display.update()
 
 
-def draw_list(draw_info, color_positions={}, clear_bg=False):
+def draw_list(draw_info, color_positions=None, clear_bg=False):
+	if color_positions is None:
+		color_positions = {}
 	lst = draw_info.lst
 
 	if clear_bg:
