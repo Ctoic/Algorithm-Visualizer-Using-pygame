@@ -97,8 +97,8 @@ def count_sort(draw_info, ascending=True):
 	for i in lst:
 		count[i] += 1
 	i = 0
-	for j in range(len(count)):
-		for k in range(count[j]):
+	for j, item in enumerate(count):
+		for k in range(item):
 			lst[i] = j
 			i += 1
 			draw_list(draw_info, {i - 1: draw_info.GREEN, i: draw_info.RED}, True)
@@ -216,8 +216,8 @@ def counting_sort(draw_info, ascending=True):
 	count = [0] * range1
 	output = [0] * len(lst)
 
-	for i in range(len(lst)):
-		count[lst[i] - min_val] += 1
+	for i, item in enumerate(lst):
+		count[item - min_val] += 1
 
 	for i in range(1, len(count)):
 		count[i] += count[i - 1]
@@ -407,8 +407,8 @@ def bucket_sort(draw_info, ascending=True):
 
 		k = 0
 		for i in range(slot_num):
-			for j in range(len(arr[i])):
-				lst[k] = arr[i][j]
+			for j, item in enumerate(arr[i]):
+				lst[k] = item
 				k += 1
 				draw_list(draw_info, {k: draw_info.GREEN}, True)
 				yield True
