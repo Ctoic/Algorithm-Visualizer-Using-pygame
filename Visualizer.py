@@ -105,7 +105,7 @@ def count_sort(draw_info, ascending=True):
 			yield True
 	return lst
 
-	
+
 
 def bubble_sort(draw_info, ascending=True):
 	lst = draw_info.lst
@@ -490,7 +490,7 @@ def radix_sort(draw_info, ascending=True):
 def main():
 	run = True #var for while loop
 	clock = pygame.time.Clock()
-	
+
 
 	n = 30 #number of elements
 	min_val = 1
@@ -582,7 +582,7 @@ def main():
 
 
 
-			
+
 
  # As long as we have run = True this loop will run and when it ends then we have to close pygame window
 	pygame.quit()
