@@ -538,7 +538,7 @@ def main():
 				lst = generate_starting_list(n, min_val, max_val)
 				draw_info.set_list(lst)
 				sorting = False
-			elif event.key == pygame.K_SPACE and sorting == False:
+			elif event.key == pygame.K_SPACE and sorting is False:
 				sorting = True
 				sorting_algorithm_generator = sorting_algorithm(draw_info, ascending)
 			elif event.key == pygame.K_a and not sorting:
